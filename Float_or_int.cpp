@@ -21,3 +21,7 @@ int main()
     if(ans==1) cout<<"float "<<stoi(s)<<" 0."<<pt<<endl;
     else cout<<"int "<<stoi(s)<<endl;
 }
+/**
+problem source : 
+https://vjudge.net/problem/Gym-287306T
+*/
