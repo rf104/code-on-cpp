@@ -3,10 +3,7 @@ using namespace std;
 int gcd(int a,int b)
 {
     if(b%a==0) return a;
-    int temp = a;
-    a = b%a;
-    b = temp;
-    gcd(a,b);
+    gcd(b%a,a);
 }
 int main()
 {
