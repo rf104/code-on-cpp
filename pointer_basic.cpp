@@ -11,5 +11,16 @@ int main()
   cout<<&y<<endl;   /// address of y
   cout<<*y<<endl;  ///it will give a value which address the pointer stores... here the value is 2 cause x = 2;
   
+  int xy[] = {1,2,4};
+    int *head = xy;  /// array itself memory address er moto ty &x leka jai na but if you insist &x[0] leka jabe
+
+    ///cout<<*head<<endl; //first value of array
+
+    for(int i=0;i<3;i++)
+    {
+        head = xy + i;
+        cout<<*head<<endl;
+    }
+
   
 }
